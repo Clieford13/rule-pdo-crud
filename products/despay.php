@@ -26,7 +26,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(to bottom, #ff8533 675px,  #e65c00 10px);
+    background-image: linear-gradient(to bottom, #990000 675px,  #4d0000 10px);
     color: #000000;
     padding: 20px;
 }
@@ -97,7 +97,7 @@
     border-radius: 5px;
     padding: 5px;
     width: 300px; /* Adjusted width to fit two cards per row */
-    background-color: white;
+    background-color: #ff4d4d;
     box-shadow: 0 0 20px black;
     display: flex;
     flex-direction: column;
@@ -231,7 +231,7 @@
 
 nav {
     flex: 6;
-    background-color: black;
+    background-color: #800000;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -367,9 +367,9 @@ h1 {
 <body> 
     <nav>
         <div class="logo-container">
-            <img src="../media/lo.webp" alt="Logo" style="max-width: 150px; margin-top: -10px;">
+            <img src="../media/log.webp" alt="Logo" style="max-width: 150px; margin-top: -10px;">
         </div>
-               
+            
         <div style="text-align: center;">
             <a href="../public/user/reset.php" class="btn btn-warning" style="border-color: black;">Reset Password</a>
             <a href="../public/user/logout.php" class="btn btn-danger mr-3" style="border-color: black;">Log-out</a>
@@ -392,8 +392,7 @@ h1 {
         </div>
         </div>
 
-        <h1 class="my-5" style="font-size: 30px;">Welcome!, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b> Discover quality products at great prices. Start shopping now!</h1>
-
+       
             <h1 class="text" style="color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 60px; text-align: center;">PRODUCTS</h1>
             <hr>
             <hr style="border-top: 3px solid black;">

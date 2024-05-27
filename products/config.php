@@ -1,10 +1,9 @@
 <?php
 
-
 $host = 'localhost';
-$dbname = 'u593341949_db_magan';
-$username = 'u593341949_dev_magan';
-$password = '20221492Magan';
+$dbname = 's';
+$username = 'root';
+$password = '';
 
 try {   
  $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

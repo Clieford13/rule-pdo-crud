@@ -1,10 +1,10 @@
 <?php
 // Establish database connection
-$host = 'localhost';
-$dbname = 'u593341949_db_magan';
-$username = 'u593341949_dev_magan';
-$password = '20221492Magan';
 
+$host = 'localhost';
+$dbname = 's';
+$username = 'root';
+$password = '';
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
